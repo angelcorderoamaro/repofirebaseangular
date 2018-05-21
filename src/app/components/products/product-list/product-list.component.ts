@@ -16,7 +16,7 @@ constructor(
     private productService : ProductService
   ) { }
 
-  ngOnInit() {
+  ngOnInit()  {
     this.productService.getProducts()
     .snapshotChanges()
     .subscribe(item => {
