@@ -34,7 +34,6 @@ constructor(
   }
   onDelete($key : string){
     this.productService.deleteProduct($key);
-
   }
 
 }
